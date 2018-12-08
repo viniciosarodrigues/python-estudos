@@ -1,0 +1,10 @@
+print('======== Exercício 12 (Calcula  desconto de preço ========')
+
+valor = float(input('Informe o valor atual do produto: R$ '))
+desconto = int(input('Informe a porcentagem do desconto: '))
+valorDesconto = valor * (desconto/100)
+print('==========================================================')
+print('Valor do produto: R$ {}'.format(valor))
+print('Porcentagem de desconto: {}%'.format(desconto))
+print('Valor descontado R$ {}'.format(valorDesconto))
+print('Valor final do produto com o desconto é: R$ {}'.format(valor - valorDesconto))
