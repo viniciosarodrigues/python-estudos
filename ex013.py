@@ -1,4 +1,4 @@
-print('======== Exercício 14 (Conversor de temperatura ========')
+print('======== Exercício 14 (Conversor de temperatura) ========')
 
 conversorDe = input('O que você deseja fazer?\n1 - Conversor de Celsius para Fahrenheit\n2 - Conversor de Fahrenheit para Celsius\nOpção: ')
 print('==========================================================')
