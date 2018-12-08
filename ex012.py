@@ -1,0 +1,10 @@
+print('======== Exercício 13 (Calcula  aumento de salário ========')
+
+valor = float(input('Informe o valor atual do salário: R$ '))
+aumento = int(input('Informe a porcentagem do aumento: '))
+valoraumento = valor * (aumento/100)
+print('==========================================================')
+print('Valor do salário: R$ {}'.format(valor))
+print('Porcentagem de aumento: {}%'.format(aumento))
+print('Valor incrementado R$ {}'.format(valoraumento))
+print('Valor final do salário com o aumento é: R$ {}'.format(valor + valoraumento))
